@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body id="bdy">
+ 
+  <section class="sect">
+    <section class="sectt">
+     <div class="imgBgMobile">
+        <!-- <img src="images/bg-mobile-dark.jpg" id="imgBgMobile"> -->
+     </div>
+     <div class="imgBgDesk">
+        <!-- <img src="images/bg-desktop-dark.jpg" id="imgBgDesk"> -->
+     </div>
+       
+        <div class="myInput">
+          <h2>Todo<span class="mode" id="mode"><!--<img src="images/icon-sun.svg" id="pic">--></span></h2>
+          <input type="text" id="txt" class="txt" placeholder="Create a new ToDo">
+          <span class="addBtn" id="addBtn">add</span>
+       </div>
+       <div class="ulDiv">
+         <ul id="myUl">
+           <li>Complete online Javascript course</li>
+           <li>Jogging around the park 3x</li>
+           <li>10 minutes meditation</li>
+           <li>Read for 1 hour</li>
+           <li>Pick up groceries</li>
+           <li>Complete Todo App on Fromtend Mentor</li>
+         </ul>
+        
+         <p class="addtn"><span><span id="demo"> 4</span> Items left </span><span onclick="filterAll4()" style="cursor: pointer;" class="spn">Clear completed</span></p>
+         
+         <div class="myBtns"> 
+         <input type="button" value="All" class="btns active" onclick="filterAll1()">
+         <input type="button" value="Active" class="btns" onclick="filterAll2()">
+         <input type="button" value="Completed" class="btns" onclick="filterAll3()">
+        </div>
+       </div>
+    
+    </section>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abdulrahman Badamasi</a>.
+    </div>
+  <script type="text/javascript" src="jScript.js"></script>
+</body>
+</html>
