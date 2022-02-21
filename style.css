@@ -24,7 +24,10 @@
 --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
 --Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
 }
-
+@font-face {
+    font-famili:myFont;
+    src: url(https://fonts.google.com/specimen/Josefin+Sans)
+}
 *
 {
     box-sizing: border-box;
@@ -33,7 +36,7 @@
 {
    margin: 0;
     font-size: 13px;
-    font-family: sans-serif;
+    font-famili:myFont;
     width: 100%;
     padding: 0;
 }
