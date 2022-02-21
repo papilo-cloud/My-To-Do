@@ -25,9 +25,13 @@
 --Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
 }
 @font-face {
-    font-family:myFont;
-    src: url(https://fonts.google.com/specimen/Josefin+Sans)
+    font-family: myFont;
+    src: url(https://fonts.google.com/specimen/Josefin+Sans);
 }
+/* @font-face {
+  font-family: myFont;
+  src: url(https://fonts.google.com/specimen/Public+Sans) ;
+} */
 *
 {
     box-sizing: border-box;
